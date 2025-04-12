@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "faculty": "FACULTY",
+    "students": "STUDENTS",
+    "academics": "ACADEMICS",
+    "gallery": "GALLERY",
+    "contact": "CONTACT US"
+  },
+  "hero": {
+    "title": "Welcome to Apex English School",
+    "subtitle": "Excellence in Education Since 1984",
+    "description": "Nurturing young minds and shaping future leaders"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Since 1984, Apex English School has been dedicated to fostering a culture of continual progress and excellence in education.",
+    "mission": "At Apex, we are dedicated to fostering an environment of academic excellence, creativity, and holistic development. Our state-of-the-art facilities and passionate faculty ensure a quality education that empowers students to reach their full potential.",
+    "legacy": {
+      "title": "Our Legacy",
+      "description": "Since our establishment in 2013, Apex English School has grown into a premier institution known for its commitment to educational excellence. We've continuously evolved, integrating modern teaching methodologies and expanding our curriculum to meet the changing needs of our students. Our nurturing and dynamic learning environment has built a reputation that spans decades."
+    },
+    "mission_motto": {
+      "title": "Our Mission & Motto",
+      "items": [
+        {
+          "title": "Innovation",
+          "description": "We strive to cultivate a spirit of innovation among our students, encouraging them to think outside the box, explore new ideas, and pioneer groundbreaking solutions to real-world challenges."
+        },
+        {
+          "title": "Excellence",
+          "description": "We are committed to academic excellence, pushing our students to achieve their highest potential while maintaining high standards in education and character development."
+        },
+        {
+          "title": "Community",
+          "description": "We believe in building a strong, supportive community where students, teachers, and parents work together to create an enriching educational environment."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours"
+    }
+  },
+  "faculty": {
+    "title": "Our Faculty",
+    "description": "Meet our dedicated team of educators",
+    "roles": {
+      "principal": "Principal",
+      "secretary": "Secretary",
+      "all_subjects": "All Subjects Teacher",
+      "science": "Science Teacher",
+      "mathematics": "Mathematics Teacher",
+      "environmental_studies": "Environmental Studies Teacher"
+    },
+    "members": [
+      {
+        "name": "SHAIKH S A",
+        "role": "Principal",
+        "image": "https://studentaffairs.unl.edu/images/news-article/EmilyJohnson.jpg",
+        "quote": "Welcome to our school community! We are dedicated to fostering a nurturing environment that promotes academic and personal growth. Join us in making a positive impact."
+      },
+      {
+        "name": "WAHAB SAYYED",
+        "role": "Secretary",
+        "image": "src/assets/secretory.jpeg",
+        "quote": "Together, we can achieve greatness. Let's work hand-in-hand to shape the future and build a thriving school environment."
+      },
+      {
+        "name": "GOLAHAR S H -B.Ed",
+        "role": "All Subjects Teacher",
+        "image": "src/assets/fac3.png",
+        "quote": "Teaching is not just about imparting knowledge; it's about inspiring a love for learning and encouraging growth."
+      },
+      {
+        "name": "PATHAN IMRANKHAN ISAKHAN",
+        "role": "Science Teacher",
+        "image": "src/assets/fac3.png",
+        "quote": "Science is a journey of discovery. Let's explore and learn together."
+      },
+      {
+        "name": "SHAIKH IRSHAD SIKANDAR",
+        "role": "Mathematics Teacher",
+        "image": "src/assets/fac4.png",
+        "quote": "Mathematics is the language of the universe. Let's unlock its secrets together."
+      },
+      {
+        "name": "BHUJBAL RANJANA VASANT",
+        "role": "Mathematics Teacher",
+        "image": "src/assets/fac3.png",
+        "quote": "Mathematics helps us understand patterns and solve real-world problems."
+      },
+      {
+        "name": "RAVINDRA DINKARAO GHUMARE",
+        "role": "Science Teacher",
+        "image": "src/assets/fac3.png",
+        "quote": "Science helps us understand the world around us. Let's discover together."
+      },
+      {
+        "name": "SAYYED KULSUM IBRAHIM",
+        "role": "Environmental Studies Teacher",
+        "image": "src/assets/fac3.png",
+        "quote": "Understanding our environment is key to protecting our future."
+      }
+    ]
+  },
+  "curriculum": {
+    "title": "Our Curriculum",
+    "methodologies": [
+      {
+        "title": "Teaching Methodologies",
+        "description": "We use a blend of traditional and modern teaching techniques to cater to different learning styles.",
+        "icon": "📚"
+      },
+      {
+        "title": "Educational Resources",
+        "description": "Digital classrooms, interactive learning modules, and access to online educational platforms.",
+        "icon": "💻"
+      }
+    ],
+    "grades": [
+      {
+        "title": "NURSERY",
+        "subjects": ["Alphabets", "Numbers", "Rhymes", "Storytelling", "Drawing & Coloring", "Basic Manners", "Indoor Games", "Physical Activities"],
+        "color": "bg-red-500"
+      },
+      {
+        "title": "LKG",
+        "subjects": ["Alphabets (A-Z)", "Numbers (1-50)", "Rhymes & Poems", "Storytelling", "Basic Shapes & Colors", "Drawing & Coloring", "Good Manners & Habits", "Physical Activities"],
+        "color": "bg-blue-500"
+      },
+      {
+        "title": "UKG",
+        "subjects": ["English Reading & Writing", "Basic Grammar", "Basic Math", "Rhymes & Poems", "Storytelling & Writing", "Environmental Science", "Drawing & Craft", "Good Manners & Hygiene", "Physical Activities"],
+        "color": "bg-green-500"
+      },
+      {
+        "title": "Grades 1-2",
+        "subjects": ["English Reading & Writing", "Basic Grammar", "Hindi (Sulabharathi)", "Marathi (Balbharathi)", "Mathematics", "Environmental Science", "General Knowledge", "Basic Computer Skills", "Art & Craft", "Physical Education"],
+        "color": "bg-pink-500"
+      },
+      {
+        "title": "Grades 3-5",
+        "subjects": ["English (Grammar & Composition)", "Hindi (Sulabharathi)", "Marathi (Balbharathi)", "Mathematics", "Science (General & Environmental)", "Social Studies (History, Geography, Civics)", "Computer Science", "Art & Craft", "Physical Education", "Moral Science"],
+        "color": "bg-purple-500"
+      },
+      {
+        "title": "Grades 6-7",
+        "subjects": ["English (Advanced Grammar)", "Hindi (Sulabharathi)", "Marathi (Balbharathi)", "Mathematics (Algebra, Geometry)", "Science", "Social Studies", "Computer Science", "Art & Craft", "Physical Education", "Moral Science"],
+        "color": "bg-yellow-500"
+      }
+    ]
+  },
+  "students": {
+    "title": "Student Life",
+    "description": "Discover life at Apex English School"
+  },
+  "academics": {
+    "title": "Academic Programs",
+    "description": "Excellence in Education"
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "description": "Moments captured at Apex English School"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact Info",
+    "social": "Follow Us",
+    "copyright": "© 2024 Apex English School. All rights reserved."
+  },
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "marathi": "मराठी"
+  }
+}
