@@ -25,7 +25,7 @@ const About = () => {
           </div>
           <div className="md:w-1/2 md:pl-10">
             <img 
-              src="src/assets/logo.jpeg" 
+              src="src/assets/images/logo.jpeg" 
               alt="Springdale Public School Campus"
               className="w-full h-auto object-cover rounded-lg shadow-2xl"
             />

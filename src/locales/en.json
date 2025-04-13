@@ -75,43 +75,43 @@
       {
         "name": "WAHAB SAYYED",
         "role": "Secretary",
-        "image": "src/assets/secretory.jpeg",
+        "image": "src/assets/images/secretory.jpeg",
         "quote": "Together, we can achieve greatness. Let's work hand-in-hand to shape the future and build a thriving school environment."
       },
       {
         "name": "GOLAHAR S H -B.Ed",
         "role": "All Subjects Teacher",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "Teaching is not just about imparting knowledge; it's about inspiring a love for learning and encouraging growth."
       },
       {
         "name": "PATHAN IMRANKHAN ISAKHAN",
         "role": "Science Teacher",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "Science is a journey of discovery. Let's explore and learn together."
       },
       {
         "name": "SHAIKH IRSHAD SIKANDAR",
         "role": "Mathematics Teacher",
-        "image": "src/assets/fac4.png",
+        "image": "src/assets/images/fac4.png",
         "quote": "Mathematics is the language of the universe. Let's unlock its secrets together."
       },
       {
         "name": "BHUJBAL RANJANA VASANT",
         "role": "Mathematics Teacher",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "Mathematics helps us understand patterns and solve real-world problems."
       },
       {
         "name": "RAVINDRA DINKARAO GHUMARE",
         "role": "Science Teacher",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "Science helps us understand the world around us. Let's discover together."
       },
       {
         "name": "SAYYED KULSUM IBRAHIM",
         "role": "Environmental Studies Teacher",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "Understanding our environment is key to protecting our future."
       }
     ]

@@ -122,43 +122,43 @@
       {
         "name": "वहाब सय्यद",
         "role": "सचिव",
-        "image": "src/assets/secretory.jpeg",
+        "image": "src/assets/images/secretory.jpeg",
         "quote": "एकत्र आपण महानता प्राप्त करू शकतो. भविष्य घडवण्यासाठी आणि एक समृद्ध शालेय वातावरण तयार करण्यासाठी चला हातमिळवणी करूया."
       },
       {
         "name": "गोलाहर एस एच -बी.एड",
         "role": "सर्व विषय शिक्षक",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "शिक्षण हे केवळ ज्ञान देणे नाही; ते शिकण्याची आवड निर्माण करणे आणि विकासाला प्रोत्साहन देणे आहे."
       },
       {
         "name": "पठाण इमरानखान इसाखान",
         "role": "विज्ञान शिक्षक",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "विज्ञान हा शोधाचा प्रवास आहे. चला एकत्र शोधूया आणि शिकूया."
       },
       {
         "name": "शेख इरशाद सिकंदर",
         "role": "गणित शिक्षक",
-        "image": "src/assets/fac4.png",
+        "image": "src/assets/images/fac4.png",
         "quote": "गणित हे विश्वाची भाषा आहे. चला त्याचे रहस्य एकत्र उलगडूया."
       },
       {
         "name": "भुजबळ रंजना वसंत",
         "role": "गणित शिक्षक",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "गणित आपल्याला पॅटर्न समजण्यास आणि वास्तविक जगातील समस्या सोडवण्यास मदत करते."
       },
       {
         "name": "रवींद्र दिनकरराव घुमरे",
         "role": "विज्ञान शिक्षक",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "विज्ञान आपल्याला आपल्या भोवतालचे जग समजून घेण्यास मदत करते. चला एकत्र शोधूया."
       },
       {
         "name": "सय्यद कुलसूम इब्राहिम",
         "role": "पर्यावरण अभ्यास शिक्षक",
-        "image": "src/assets/fac3.png",
+        "image": "src/assets/images/fac3.png",
         "quote": "आपले पर्यावरण समजून घेणे हे आपल्या भविष्याचे संरक्षण करण्यासाठी महत्त्वाचे आहे."
       }
     ]

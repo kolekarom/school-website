@@ -63,7 +63,7 @@ const Students = () => {
   <h2 className="text-3xl font-semibold mb-6 text-indigo-700">A Glimpse of Student Life</h2>
   <div className="overflow-hidden rounded-lg shadow-lg">
     <img 
-      src="src/assets/students.jpeg" 
+      src="src/assets/images/students.jpeg" 
       alt="Students enjoying campus life" 
       className="mx-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 hover:brightness-110"
     />
