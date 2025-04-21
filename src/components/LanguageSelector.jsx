@@ -12,8 +12,8 @@ const LanguageSelector = () => {
         className="form-select form-select-sm"
         aria-label={translate('language.select')}
       >
-        <option value="en">{translate('language.english')}</option>
-        <option value="mr">{translate('language.marathi')}</option>
+        <option value="en">{translate('english')}</option>
+        <option value="mr">{translate('marathi')}</option>
       </select>
     </div>
   );

@@ -4,6 +4,11 @@ import { Menu } from '@mui/icons-material';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSelector from './LanguageSelector';
 
+/*
+This component represents the navigation bar of the website.
+It includes links to various sections of the website such as home, about, faculty, students, academics, gallery, and contact.
+The navigation bar is responsive and includes a toggle menu for smaller screens.
+*/
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { translate } = useLanguage();
@@ -48,7 +53,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item me-3">
                   <Link to="/contact" className="btn shadow btn-primary text-light text-decoration-none">
-                    {translate('nav.contact')}
+                    {translate('contact')}
                   </Link>
                 </li>
                 <li className="nav-item me-3">
