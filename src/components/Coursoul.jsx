@@ -23,7 +23,7 @@ function Coursoul() {
 
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
-        <div className="carousel-item active" style={{ backgroundImage: "url('src/assets/images/c11.jpeg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
+        <div className="carousel-item active" style={{ backgroundImage: "url('/images/c11.jpeg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
           <div className='h-[25rem] lg:h-[40rem]'>
             <div className='bg-dark bg-opacity-50 w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
             
