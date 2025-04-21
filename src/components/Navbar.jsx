@@ -29,22 +29,22 @@ function Navbar() {
             <div className="flex items-center" id="navbarNav">
               <ul className="navbar-nav hidden lg:flex align-items-center">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link">{translate('nav.home')}</Link>
+                  <Link to="/" className="nav-link">{translate('home')}</Link>
                 </li>
                 <li className="nav-item me-3">
-                  <Link to='/aboutus' className="nav-link">{translate('nav.about')}</Link>
+                  <Link to='/aboutus' className="nav-link">{translate('about')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/faculty" className="nav-link">{translate('nav.faculty')}</Link>
+                  <Link to="/faculty" className="nav-link">{translate('faculty')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/students" className="nav-link">{translate('nav.students')}</Link>
+                  <Link to="/students" className="nav-link">{translate('students')}</Link>
                 </li>
                 <li className="nav-item me-3">
-                  <Link to="/curriculum" className="nav-link">{translate('nav.academics')}</Link>
+                  <Link to="/curriculum" className="nav-link">{translate('academics')}</Link>
                 </li>
                 <li className="nav-item me-3">
-                  <Link to="/campus" className="nav-link">{translate('nav.gallery')}</Link>
+                  <Link to="/campus" className="nav-link">{translate('gallery')}</Link>
                 </li>
                 <li className="nav-item me-3">
                   <Link to="/contact" className="btn shadow btn-primary text-light text-decoration-none">
@@ -69,37 +69,37 @@ function Navbar() {
                 <ul className="mt-8 space-y-4 flex flex-col gap-3">
                   <li>
                     <Link to="/" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.home')}
+                      {translate('home')}
                     </Link>
                   </li>
                   <li>
                     <Link to="/aboutus" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.about')}
+                      {translate('about')}
                     </Link>
                   </li>
                   <li>
                     <Link to="/faculty" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.faculty')}
+                      {translate('faculty')}
                     </Link>
                   </li>
                   <li>
                     <Link to="/students" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.students')}
+                      {translate('students')}
                     </Link>
                   </li>
                   <li>
                     <Link to="/curriculum" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.academics')}
+                      {translate('academics')}
                     </Link>
                   </li>
                   <li>
                     <Link to="/campus" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.gallery')}
+                      {translate('gallery')}
                     </Link>
                   </li>
                   <li>
                     <Link to="/contact" className="text-white" onClick={toggleMenu}>
-                      {translate('nav.contact')}
+                      {translate('contact')}
                     </Link>
                   </li>
                 </ul>
