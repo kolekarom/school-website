@@ -12,36 +12,26 @@ const School = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const schoolImages = [
-    'src/assets/images/c20.jpeg',
-    'src/assets/images/c13.jpeg',
-    'src/assets/images/c1.jpeg',
-    'src/assets/images/c2.jpeg',
-    'src/assets/images/c3.jpeg',
-    'src/assets/images/c4.jpeg',
-    'src/assets/images/c5.jpeg',
-    'src/assets/images/c6.jpeg',
-    'src/assets/images/c7.jpeg',
-    'src/assets/images/c8.jpeg',
-    'src/assets/images/c9.jpeg',
-    'src/assets/images/c10.jpeg',
-    'src/assets/images/c11.jpeg',
-    
-    'src/assets/images/c14.jpeg',
-    'src/assets/images/c15.jpeg',
-    'src/assets/images/c16.jpeg',
-    'src/assets/images/c17.jpeg',
-    'src/assets/images/c18.jpeg',
-    'src/assets/images/c19.jpeg',
-    'src/assets/images/c21.jpeg',
-    
-
-
-
-    
-
-
-
-    
+    '/images/c20.jpeg',
+    '/images/c13.jpeg',
+    '/images/c1.jpeg',
+    '/images/c2.jpeg',
+    '/images/c3.jpeg',
+    '/images/c4.jpeg',
+    '/images/c5.jpeg',
+    '/images/c6.jpeg',
+    '/images/c7.jpeg',
+    '/images/c8.jpeg',
+    '/images/c9.jpeg',
+    '/images/c10.jpeg',
+    '/images/c11.jpeg',
+    '/images/c14.jpeg',
+    '/images/c15.jpeg',
+    '/images/c16.jpeg',
+    '/images/c17.jpeg',
+    '/images/c18.jpeg',
+    '/images/c19.jpeg',
+    '/images/c21.jpeg',
   ];
 
   const schoolVideos = [
