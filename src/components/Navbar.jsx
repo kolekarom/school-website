@@ -4,18 +4,24 @@ import { Menu } from '@mui/icons-material';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSelector from './LanguageSelector';
 
-/*
-This component represents the navigation bar of the website.
-It includes links to various sections of the website such as home, about, faculty, students, academics, gallery, and contact.
-The navigation bar is responsive and includes a toggle menu for smaller screens.
-*/
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const { translate } = useLanguage();
+  const { translate, loading } = useLanguage();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // Default navigation items
+  const navItems = [
+    { key: 'nav.home', text: 'HOME', path: '/' },
+    { key: 'nav.aboutUs', text: 'ABOUT US', path: '/aboutus' },
+    { key: 'nav.faculty', text: 'FACULTY', path: '/faculty' },
+    { key: 'nav.students', text: 'STUDENTS', path: '/students' },
+    { key: 'nav.academics', text: 'ACADEMICS', path: '/curriculum' },
+    { key: 'nav.gallery', text: 'GALLERY', path: '/campus' },
+    { key: 'nav.contactUs', text: 'CONTACT US', path: '/contact' }
+  ];
 
   return (
     <nav className='w-[100vw]'>
@@ -33,29 +39,19 @@ function Navbar() {
 
             <div className="flex items-center" id="navbarNav">
               <ul className="navbar-nav hidden lg:flex align-items-center">
-                <li className="nav-item">
-                  <Link to="/" className="nav-link">{translate('home')}</Link>
-                </li>
-                <li className="nav-item me-3">
-                  <Link to='/aboutus' className="nav-link">{translate('about')}</Link>
-                </li>
-                <li className="nav-item">
-                  <Link to="/faculty" className="nav-link">{translate('faculty')}</Link>
-                </li>
-                <li className="nav-item">
-                  <Link to="/students" className="nav-link">{translate('students')}</Link>
-                </li>
-                <li className="nav-item me-3">
-                  <Link to="/curriculum" className="nav-link">{translate('academics')}</Link>
-                </li>
-                <li className="nav-item me-3">
-                  <Link to="/campus" className="nav-link">{translate('gallery')}</Link>
-                </li>
-                <li className="nav-item me-3">
-                  <Link to="/contact" className="btn shadow btn-primary text-light text-decoration-none">
-                    {translate('contact')}
-                  </Link>
-                </li>
+                {navItems.map((item, index) => (
+                  <li key={item.key} className={`nav-item ${index < navItems.length - 1 ? 'me-3' : ''}`}>
+                    {item.key === 'nav.contactUs' ? (
+                      <Link to={item.path} className="btn shadow btn-primary text-light text-decoration-none">
+                        {loading ? item.text : translate(item.key)}
+                      </Link>
+                    ) : (
+                      <Link to={item.path} className="nav-link">
+                        {loading ? item.text : translate(item.key)}
+                      </Link>
+                    )}
+                  </li>
+                ))}
                 <li className="nav-item me-3">
                   <LanguageSelector />
                 </li>
@@ -72,40 +68,15 @@ function Navbar() {
                   &times;
                 </div>
                 <ul className="mt-8 space-y-4 flex flex-col gap-3">
+                  {navItems.map((item) => (
+                    <li key={item.key}>
+                      <Link to={item.path} className="text-white" onClick={toggleMenu}>
+                        {loading ? item.text : translate(item.key)}
+                      </Link>
+                    </li>
+                  ))}
                   <li>
-                    <Link to="/" className="text-white" onClick={toggleMenu}>
-                      {translate('home')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/aboutus" className="text-white" onClick={toggleMenu}>
-                      {translate('about')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/faculty" className="text-white" onClick={toggleMenu}>
-                      {translate('faculty')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/students" className="text-white" onClick={toggleMenu}>
-                      {translate('students')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/curriculum" className="text-white" onClick={toggleMenu}>
-                      {translate('academics')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/campus" className="text-white" onClick={toggleMenu}>
-                      {translate('gallery')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/contact" className="text-white" onClick={toggleMenu}>
-                      {translate('contact')}
-                    </Link>
+                    <LanguageSelector />
                   </li>
                 </ul>
               </div>
