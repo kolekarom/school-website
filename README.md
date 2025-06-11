@@ -1,6 +1,6 @@
 # Apex English School Website
 
-A modern, bilingual website for Apex English School in Patoda, showcasing the school's legacy, curriculum, and commitment to educational excellence since 1984.
+A modern, bilingual website for Apex English School in Patoda, showcasing the school's legacy, curriculum, and commitment to educational excellence.
 
 ## Features
 
